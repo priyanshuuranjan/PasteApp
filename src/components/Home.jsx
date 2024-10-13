@@ -54,7 +54,6 @@ const Home = () => {
     }
   }, [pasteId, pastes]);
 
-
   return (
     <div className="w-full h-full py-10 max-w-[1200px] mx-auto px-5 lg:px-0">
       <div className="flex flex-col gap-y-5 items-start">
@@ -76,12 +75,14 @@ const Home = () => {
             {pasteId ? "Update Paste" : "Create My Paste"}
           </button>
 
-        {pasteId &&  <button
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
-            onClick={resetPaste}
-          >
-            <PlusCircle size={20} />
-          </button>}
+          {pasteId && (
+            <button
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
+              onClick={resetPaste}
+            >
+              <PlusCircle size={20} />
+            </button>
+          )}
         </div>
 
         <div
