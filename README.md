@@ -11,7 +11,7 @@ A simple and efficient note-taking application built using **React**, **Tailwind
 
 ## 🛠️ Technologies Used
 
-- ⚛️ **React**: For building the user interface.
+- ⚛️ **React**: For building the user interface
 - 🎨 **Tailwind CSS**: For responsive and modern styling.
 - 🗂️ **Redux Toolkit**: For managing the global state of the application.
 - 💻 **Local Storage API**: For storing notes directly in the browser.
