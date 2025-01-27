@@ -20,7 +20,7 @@ A simple and efficient note-taking application built using **React**, **Tailwind
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/notes-saver.git
+   git clone https://github.com/priyanshuuranjan/notes-saver.git
    ```
 
 2. **Navigate to the project directory**:
